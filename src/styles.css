@@ -1,0 +1,136 @@
+/* src/styles.css */
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f6fa;
+  color: #333;
+}
+
+/* Navigation */
+nav {
+  background-color: #2f3640;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00a8ff;
+}
+
+/* Form Containers */
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  color: #2f3640;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #00a8ff;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #00a8ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0097e6;
+}
+
+/* Landing Page */
+.landing-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.landing-container p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.landing-container a {
+  padding: 10px 25px;
+  margin: 0 10px;
+  background-color: #00a8ff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.landing-container a:hover {
+  background-color: #0097e6;
+}
+
+/* Teacher List */
+.teacher-list {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.teacher-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.teacher-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.teacher-list li:last-child {
+  border-bottom: none;
+}
+
+.teacher-list button {
+  width: auto;
+  padding: 6px 12px;
+  font-size: 14px;
+}
