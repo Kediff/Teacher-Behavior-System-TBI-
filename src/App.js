@@ -5,6 +5,8 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import TeacherList from "./pages/TeacherList";
 import './styles.css';
+import Evaluation from "./pages/Evaluation";
+
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/teachers" element={<TeacherList />} />
+        <Route path="/evaluation" element={<Evaluation />} />
+        <Route path="/Evaluation" element={<Evaluation />} />
       </Routes>
     </Router>
   );
