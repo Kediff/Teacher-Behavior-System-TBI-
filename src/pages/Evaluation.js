@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import DashboardLayout from "../components/DashboardLayout";
+import Loader from "../components/Loader";
 
 function Evaluation() {
   const teachers = ["Mr. Santos", "Ms. Reyes", "Mr. Cruz"];
